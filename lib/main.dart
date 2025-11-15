@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -19,10 +20,10 @@ class MyApp extends StatelessWidget {
       fontFamily: 'Lato',
       colorScheme: colorScheme,
       appBarTheme: AppBarTheme(
-      backgroundColor: colorScheme.primary,
-      foregroundColor: colorScheme.onPrimary,
-      elevation: 4,
-      shadowColor: colorScheme.shadow,
+        backgroundColor: colorScheme.primary,
+        foregroundColor: colorScheme.onPrimary,
+        elevation: 4,
+        shadowColor: colorScheme.shadow,
       ),
     );
 
