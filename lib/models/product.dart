@@ -1,0 +1,32 @@
+class Product {
+  final String id;
+  final String title;
+  final String description;
+  final double price;
+  final String imageUrl;
+  bool isFavorite;
+
+  Product({
+    required this.id,
+    required this.title,
+    required this.description,
+    required this.price,
+    required this.imageUrl,
+    this.isFavorite = false,
+  });
+  Product copyWith({
+    String? id,
+    String? title,
+    String? description,
+    String? imageUrl,
+    bool? isFavorite,
+  }) {
+    return Product(
+      id: id ?? this.id,
+      title: title ?? this.id,
+      description: description ?? this.description,
+      price: price ?? this.price,
+      imageUrl: imageUrl ?? this.isFavorite,
+    );
+  }
+}
