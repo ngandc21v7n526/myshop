@@ -6,4 +6,4 @@ Bài tập thực hành CT484, HK1 2025-2026
 
 **Họ tên SV**: Le Quynh Ngan
 
-**Lớp học phần**: CT484
+**Lớp học phần**: CT484DC02
